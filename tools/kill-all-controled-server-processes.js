@@ -1,3 +1,4 @@
+//This script kill the scripts running on the server you have root acccess.
 /** @param {NS} ns */
 let ns;
 export async function main(_ns) {
