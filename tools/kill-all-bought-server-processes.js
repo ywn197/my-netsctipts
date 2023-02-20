@@ -1,4 +1,4 @@
-//This script kill the scripts running on the server you have purchased.
+//This script kills the scripts running on the server you have purchased.
 /** @param {NS} ns */
 export async function main(ns) {
     let serverList = ns.getPurchasedServers();
