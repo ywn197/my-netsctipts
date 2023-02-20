@@ -1,3 +1,4 @@
+//This script looks for servers to which you have root access and then runs functions,hack(),weaken(),or grow()).
 /** @param {NS} ns */
 let ns;
 export async function main(_ns) {
