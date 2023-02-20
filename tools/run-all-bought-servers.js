@@ -1,3 +1,4 @@
+//This script run a sctipt on the server you have purchased.
 /** @param {NS} ns */
 export async function main(ns) {
     let sctipt = ns.args[0];
