@@ -1,4 +1,4 @@
-//This script kill the scripts running on the server you have root acccess.
+//This script kill the scripts running on the server you have root acccess.(Excluding purchased servers)
 /** @param {NS} ns */
 let ns;
 export async function main(_ns) {
