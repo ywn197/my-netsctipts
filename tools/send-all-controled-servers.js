@@ -1,3 +1,4 @@
+//This sctipt sends a file to the server you have root access.(Excluding purchased servers)
 /** @param {NS} ns */
 let ns;
 export async function main(_ns) {
