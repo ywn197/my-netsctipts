@@ -1,4 +1,4 @@
-//This script run a sctipt on the server you have root acccess(Excluding purchased servers.).
+//This script runs a sctipt on the server you have root acccess(Excluding purchased servers.).
 /** @param {NS} ns */
 let ns;
 export async function main(_ns) {
