@@ -12,7 +12,7 @@ export async function main(_ns) {
     let serverList = await createHostList("home","false-image-server");
 
     for(let i in serverList){
-        let th = ns.getServerMaxRam(serverList[i]) / ns.getScriptRam(script);
+        let th = Math.floor(ns.getServerMaxRam(serverList[i]) / ns.getScriptRam(script));
         if(th <= 0){
             ns.tprint("Server " + serverList[i] + " can't run this script becouse its ram is too small");
             continue;
