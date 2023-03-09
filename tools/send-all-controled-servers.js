@@ -1,8 +1,9 @@
 //This script runs a sctipt on the server you have root acccess(Excluding purchased servers.).
 /** @param {NS} ns */
 let ns;
+CONST BOUGHT_SERVER_DOMEIN = "ywn";
 export async function main(_ns) {
-    CONST BOUGHT_SERVER_DOMEIN = "ywn";
+    
     ns = _ns;
     if(ns.args <= 0){
         ns.tprint("please tyep a script name to run in argument");
